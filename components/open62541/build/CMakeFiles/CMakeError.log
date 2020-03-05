@@ -1,0 +1,380 @@
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_74c0a && [1/2] Building C object CMakeFiles/cmTC_74c0a.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_74c0a.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_74c0a.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_9c468 && [1/2] Building C object CMakeFiles/cmTC_9c468.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_9c468.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_9c468.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[2/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_3732e && [1/2] Building C object CMakeFiles/cmTC_3732e.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_3732e.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_3732e.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_8b176 && [1/2] Building C object CMakeFiles/cmTC_8b176.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_8b176.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_8b176.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[2/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_db7d4 && [1/2] Building C object CMakeFiles/cmTC_db7d4.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_db7d4.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_db7d4.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_65470 && [1/2] Building C object CMakeFiles/cmTC_65470.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_65470.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_65470.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[2/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_b751f && [1/2] Building C object CMakeFiles/cmTC_b751f.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_b751f.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_b751f.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_acc69 && [1/2] Building C object CMakeFiles/cmTC_acc69.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_acc69.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_acc69.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[2/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_89d60 && [1/2] Building C object CMakeFiles/cmTC_89d60.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_89d60.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_89d60.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_50d78 && [1/2] Building C object CMakeFiles/cmTC_50d78.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_50d78.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_50d78.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[2/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_90ab4 && [1/2] Building C object CMakeFiles/cmTC_90ab4.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_90ab4.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_90ab4.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_6e029 && [1/2] Building C object CMakeFiles/cmTC_6e029.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_6e029.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_6e029.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[2/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_6dacd && [1/2] Building C object CMakeFiles/cmTC_6dacd.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_6dacd.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_6dacd.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_10a0f && [1/2] Building C object CMakeFiles/cmTC_10a0f.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_10a0f.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_10a0f.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[2/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_6dd9d && [1/2] Building C object CMakeFiles/cmTC_6dd9d.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_6dd9d.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_6dd9d.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_cb624 && [1/2] Building C object CMakeFiles/cmTC_cb624.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_cb624.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_cb624.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[2/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_7e5e2 && [1/2] Building C object CMakeFiles/cmTC_7e5e2.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_7e5e2.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_7e5e2.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_95b05 && [1/2] Building C object CMakeFiles/cmTC_95b05.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_95b05.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_95b05.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[2/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_8a6b3 && [1/2] Building C object CMakeFiles/cmTC_8a6b3.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_8a6b3.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -mcet -o CMakeFiles/cmTC_8a6b3.dir/src.c.obj   -c src.c
+xtensa-esp32-elf-gcc.exe: error: unrecognized command line option '-mcet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe cmTC_16b05 && [1/2] Building C object CMakeFiles/cmTC_16b05.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_16b05.dir/src.c.obj 
+C:\Users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address -std=c99 -pipe -Wall -Wextra -Wpedantic -Werror -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -fstack-protector-strong -fstack-clash-protection -Dflag_supported   -fcf-protection -o CMakeFiles/cmTC_16b05.dir/src.c.obj   -c src.c
+cc1.exe: error: '-fcf-protection=full' is not supported for this target
+cc1.exe: error: unrecognized command line option '-Wno-static-in-inline' [-Werror]
+cc1.exe: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+CXX compiler IPO check failed with the following output:
+Change Dir: C:/Users/graf/esp_projects/ME_OPCUA_GW_1.09-dev/components/open62541/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+
+Run Build Command(s):C:/Users/graf/.espressif/tools/ninja/1.9.0/ninja.exe && [1/4] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+[2/4] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+[3/4] Linking CXX static library libfoo.a
+FAILED: libfoo.a 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E remove libfoo.a && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ar.exe" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.obj && "C:/Users/graf/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-ranlib.exe" libfoo.a && cd ."
+c:\users\graf\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ranlib.exe: unable to rename 'libfoo.a'; reason: File exists
+ninja: build stopped: subcommand failed.
+
+
