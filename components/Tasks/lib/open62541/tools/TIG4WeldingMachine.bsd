@@ -1,0 +1,12 @@
+<opc:TypeDictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://Merkle.de/TIG4WeldingMachine/" DefaultByteOrder="LittleEndian" xmlns:opc="http://opcfoundation.org/BinarySchema/" xmlns:ua="http://opcfoundation.org/UA/" TargetNamespace="http://Merkle.de/TIG4WeldingMachine/">
+    <opc:Import Namespace="http://opcfoundation.org/UA/"/>
+    <opc:StructuredType BaseType="ua:ExtensionObject" Name="JobDescriptor">
+        <opc:Field TypeName="opc:Int16" Name="Number"/>
+        <opc:Field TypeName="opc:CharArray" Name="Name"/>
+        <opc:Field TypeName="opc:ByteString" Name="RawData"/>
+        <opc:Field TypeName="opc:UInt16" Name="Process"/>
+        <opc:Field TypeName="opc:CharArray" Name="ShieldingGas"/>
+        <opc:Field TypeName="opc:CharArray" Name="FillerMaterial"/>
+        <opc:Field TypeName="opc:CharArray" Name="FillerDiameter"/>
+    </opc:StructuredType>
+</opc:TypeDictionary>
